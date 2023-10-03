@@ -1,0 +1,16 @@
+img {
+	margin: 0 auto;
+}
+th {
+	min-width: 130px;
+}
+.VPDoc.has-aside .content-container {
+	width: 100% !important;
+}
+.vp-doc h2 {
+	border-top: none;
+	padding-top: none;
+	border-bottom: 1px solid var(--vp-c-divider);
+	padding-bottom: 24px;
+	margin: 5px 0 20px;
+}

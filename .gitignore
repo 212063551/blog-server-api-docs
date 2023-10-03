@@ -1,0 +1,9 @@
+/node_modules
+.gitconfig
+.DS_Store
+**/.DS_Store
+bun.lockb
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
