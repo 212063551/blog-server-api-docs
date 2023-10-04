@@ -21,8 +21,16 @@ export default defineConfig({
 				text: '用户接口',
 				collapsed: true,
 				items: [
-					{ text: '注册接口', link: '/docs/Interfaces/user/register.md' },
-					{ text: '登录接口', link: '/docs/Interfaces/user/login.md' },
+					{
+						text: '查询全部用户',
+						link: '/docs/Interfaces/user/query.md',
+					},
+					{
+						text: '模糊查询用户',
+						link: '/docs/Interfaces/user/queryall.md',
+					},
+					{ text: '注册', link: '/docs/Interfaces/user/register.md' },
+					{ text: '登录', link: '/docs/Interfaces/user/login.md' },
 				],
 			},
 		],
