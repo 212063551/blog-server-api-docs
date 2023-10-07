@@ -23,14 +23,22 @@ export default defineConfig({
 				items: [
 					{
 						text: '查询全部用户',
-						link: '/docs/Interfaces/user/query.md',
+						link: '/docs/Interfaces/user/queryall.md',
 					},
 					{
 						text: '模糊查询用户',
-						link: '/docs/Interfaces/user/queryall.md',
+						link: '/docs/Interfaces/user/query.md',
 					},
 					{ text: '注册', link: '/docs/Interfaces/user/register.md' },
 					{ text: '登录', link: '/docs/Interfaces/user/login.md' },
+					{
+						text: '修改密码',
+						link: '/docs/Interfaces/user/change-password.md',
+					},
+					{
+						text: '修改用户信息',
+						link: '/docs/Interfaces/user/change-user-info.md',
+					},
 				],
 			},
 		],
