@@ -1,6 +1,6 @@
-## 修改密码 <Badge type="warning" text="鉴权接口" />
+## 修改用户信息 <Badge type="info" text="鉴权接口" />
 
-接口描述：修改用信息
+接口描述：修改用户信息
 
 接口地址：`/revisepassword`
 

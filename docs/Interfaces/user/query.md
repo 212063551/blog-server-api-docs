@@ -1,6 +1,6 @@
-## 查询全部用户 <Badge type="info" text="鉴权接口" />
+## 模糊查询用户 <Badge type="info" text="鉴权接口" />
 
-接口描述：此接口查询所有用户数据
+接口描述：此接口根据关键词模糊查询用户
 
 接口地址：`/queryusers`
 

@@ -1,4 +1,4 @@
-## 修改密码 <Badge type="warning" text="鉴权接口" />
+## 修改密码 <Badge type="info" text="鉴权接口" />
 
 接口描述：修改用户密码
 
@@ -14,11 +14,7 @@
 |    email     | string  |  否  | 修改用户邮箱                                      |
 |  avatarUrl   | string  |  否  | 用户头像                                          |
 | introduction | string  |  否  | 用户简介                                          |
-|  management  | boolean |  否  | 管理员权限,注意只有管理员才能给普通用户添加权限   |
-
-:::info 📌 什么是权限字段？
-权限字段表示：此字段只有管理员才有效，非管理权限，系统不会采用此字段内的内容
-:::
+|    admin     | boolean |  否  | 管理员权限,注意只有管理员才能给普通用户添加权限   |
 
 **请求参数示例：**
 
