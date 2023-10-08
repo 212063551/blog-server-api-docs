@@ -39,6 +39,20 @@ export default defineConfig({
 						text: '修改用户信息',
 						link: '/docs/Interfaces/user/change-user-info.md',
 					},
+					{
+						text: '硬删除用户',
+						link: '/docs/Interfaces/user/strike-users.md',
+					},
+				],
+			},
+			{
+				text: '验证码服务',
+				collapsed: true,
+				items: [
+					{
+						text: '发送验证码',
+						link: '/docs/Interfaces/code/send-code.md',
+					},
 				],
 			},
 		],
